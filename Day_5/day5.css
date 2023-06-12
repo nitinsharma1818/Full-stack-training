@@ -1,0 +1,37 @@
+/* universal sector */
+*{
+    margin:10%;
+}
+/* Type selctor */
+body {
+    color: cadetblue;
+    background-color: azure;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* class selector */
+.first {
+    color: black;
+}
+
+.large {
+    font-size: 30px;
+}
+
+/* id selector */
+#eklist {
+    background-color: brown;
+}
+
+/*Attribute selector */
+a[href="https://upflairs.com"] {
+    color: blueviolet;
+}
+input[type="text"]{
+    background-color: blue;
+    color: white;
+}
+/* pseudo selector */
+.first:hover{
+    color:white;
+}
