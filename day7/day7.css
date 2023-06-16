@@ -1,0 +1,15 @@
+img{
+    height: 200px;
+    width:250px;
+}
+.img1{
+    position: fixed;
+    top: 250px;
+    left: 100px;
+}
+
+.img2{
+    position: sticky;
+    top: 50px;
+    left: 150px;
+}
